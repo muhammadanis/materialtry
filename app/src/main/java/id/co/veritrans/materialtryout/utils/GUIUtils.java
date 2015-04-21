@@ -56,6 +56,7 @@ public class GUIUtils {
         Animator anim = ViewAnimationUtils.createCircularReveal(
                 v, centerX, centerY, initialRadius, 0);
 
+
         anim.setDuration(350);
 
         // make the view invisible when the animation is done
